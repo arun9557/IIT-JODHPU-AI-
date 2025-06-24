@@ -1,155 +1,108 @@
-📘 Lecture 1: Introduction to Algorithmic Thinking
-📅 Date: 21 June 2025🎥 Video Link: Lecture 1 Video (Check LMS for access)👨‍🏫 Instructor: Prajjwal Nijhara (TA)
-
-🧮 Evaluation Matrix
-How your performance will be graded:
-
-✅ In-Lecture Quizzes (Edpuzzle) – 10%(Submit quizzes via the LMS after watching videos)
-✅ End-Module Exams – 10%(Small quizzes after each module to test understanding)
-✅ Weekly Assignments – 20%(Coding, flowcharts, or thinking exercises posted on LMS)
-✅ Programming Exams (Python) – 20%(Two exams, 10% each, to test Python coding skills)
-✅ Major Final Exam – 40%(Online, comprehensive exam covering all topics)📊 Total = 100%
-
-
-Note: All assignments and quizzes are compulsory. Always click the Submit button on LMS to ensure your work is evaluated.
-
-
-🧠 Conceptual Topics Covered
-
-What is Algorithmic Thinking?
-A systematic way to solve problems by breaking them into smaller, logical steps.
-
-
-How to Think Like a Computer Scientist?
-Focus on identifying problems, defining constraints, and solving them step-by-step.
-
-
-What are Problems?
-Tasks, situations, or challenges that require a solution (e.g., settling in a new city).
-
-
-What are Algorithms?
-A sequence of steps to solve a problem, often represented as flowcharts or code (leads to DSA: Data Structures & Algorithms).
-
-
-
-
-🧩 Key Concepts (Deep Dive)
-🔹 What is a Problem?
-
-A task, situation, or challenge needing a solution.
-Examples:
-Mathematical problems (e.g., find X where X ≤ 10).
-Real-life problems (e.g., settling in a new city with a budget).
-
-
-
-🔹 How to Identify a Problem?
-
-Define the Problem Clearly:
-Example: "I moved to a new city and need to settle down."
-
-
-Identify Constraints:
-Constraints are limits or conditions affecting the solution.
-Example:
-💰 Budget: Can I rent or buy?
-📍 Location: Is the house near my workplace?
-🛡️ Safety: Are hospitals or schools nearby?
-👨‍👩‍👧‍👦 Family Strength: Am I moving alone or with family?
-
-
-
-
-Prioritize Constraints:
-Not all constraints are equally important. Assign weights based on priorities.
-Example: If budget is high, location or facilities may matter less.
-
-
-
-🔹 How to Solve a Problem?
-
-Break it into Sub-Problems:
-Split the big problem into smaller, manageable tasks.
-Example: To get to college → Wake up → Get ready → Eat breakfast → Catch bus → Arrive.
-
-
-Use Flowcharts:
-Visualize the sequence of steps to solve sub-problems (covered in next lecture).
-
-
-Apply Constraints:
-Example: If you have less money, take a bus instead of a cab.
-
-
-Write It Down:
-Documenting the problem and steps helps clarify the solution.
-
-
-
-
-Fancy Term: This process is called an algorithm. In coding, it’s the foundation of DSA (Data Structures & Algorithms).
-
-
-🛠 Practical Tips for Beginners
-
-No Prior Knowledge Needed: This course starts from zero, even for those new to computers.
-Python Basics: We’ll learn Python programming to solve real-life problems.
-Troubleshooting:
-Common Python errors:
-SyntaxError: Check for missing colons (:) or incorrect indentation.
-NameError: Ensure variable names are defined before use.
-
-
-Always test code step-by-step.
-
-
-LMS Queries: Post logistics-related doubts (e.g., attendance, account issues) on the LMS, not via personal messages.
-
-
-🛠️ Example: Real-Life Problem
-Problem: You move to a new city and want to settle down.
-
-Sub-Problems:
-Find a house.
-Arrange logistics (e.g., transport, utilities).
-Ensure proximity to workplace/school/hospital.
-
-
-Constraints:
-Budget (rent vs. buy).
-Family size (alone or with kids).
-Location (near office or school).
-
-
-Solution Approach:
-List constraints and prioritize (e.g., budget > location).
-Break into steps: Search for houses → Compare options → Finalize.
-Use a flowchart to visualize (to be covered next lecture).
-
-
-
-
-📝 Code Snippet (Placeholder)
-To be added in future lectures when Python is introduced.Example (basic Python for beginners):
-# Greet the user
-name = input("Enter your name: ")
-print(f"Hello, {name}! Welcome to Algorithmic Thinking!")
-
-
-✅ End Note
-
-“You don’t need to be an expert. Just be curious, write down problems, and break them into steps. You’re halfway there!”
-
-Next Lecture (28 June 2025):
-
-Learn how to create flowcharts.
-Solve real-world and mathematical problems using flowcharts.
-
-Action Items:
-
-Watch Week 1/2 recorded lectures on LMS.
-Complete Edpuzzle quizzes and submit assignments.
-Post doubts on LMS, not via personal messages.
-
-
+# 🌟 Lecture 1: Introduction to Algorithmic Thinking 🌟
+📅 **Date:** 21 June 2025  
+🎥 **Video Link:** [Lecture 1 Video](https://iitjbsc.futurense.com/mod/url/view.php?id=3288) *(LMS pe check karein)*  
+👨‍🏫 **Instructor:** Prajjwal Nijhara (TA)
+
+---
+
+## 🎯 Evaluation Matrix: Aapka Performance Kaise Judge Hoga?
+- ✅ **In-Lecture Quizzes (Edpuzzle)** - *10%*  
+  *(Video dekhte waqt LMS pe quizzes submit karein)*  
+- ✅ **End-Module Exams** - *10%*  
+  *(Har module ke baad chhoti quizzes)*  
+- ✅ **Weekly Assignments** - *20%*  
+  *(Coding, flowcharts, ya thinking exercises - LMS pe milega)*  
+- ✅ **Programming Exams (Python)** - *20%*  
+  *(Do exams, har ek 10%, Python skills check karega)*  
+- ✅ **Major Final Exam** - *40%*  
+  *(Online, poora course cover karega)*  
+**📊 Total = 100%**
+
+> 💡 **Note:** Sab assignments aur quizzes compulsory hain. Hamesha LMS pe **Submit** button dabayein!
+
+---
+
+## 🧠 Conceptual Topics Covered: Seekhein Kya?
+1. **🎓 What is Algorithmic Thinking?**  
+   - Problems ko chhote logical steps mein todkar solve karne ka tareeka.  
+2. **🧑‍💻 How to Think Like a Computer Scientist?**  
+   - Problems identify karein, constraints define karein, aur step-by-step solve karein.  
+3. **🤔 What are Problems?**  
+   - Tasks, situations, ya challenges jo solution maangte hain (e.g., naye sheher mein settle hona).  
+4. **🤖 What are Algorithms?**  
+   - Ek sequence of steps jo problem solve karta hai (flowcharts ya code mein, DSA ki foundation).
+
+---
+
+## 🌈 Key Concepts (Deep Dive): Seekhein Thoda Aur!
+### 🔍 What is a Problem?
+- Ek **task**, **situation**, ya **challenge** jo solution chahta hai.  
+- Examples:  
+  - Mathematical: X ko find karein jahan X ≤ 10.  
+  - Real-life: Naye sheher mein settle hona with budget.  
+
+### 🔎 How to Identify a Problem?
+1. **📝 Define Clearly:**  
+   - Example: "Main naye sheher mein shift hua aur settle hona chahta hoon."  
+2. **🎨 Identify Constraints:**  
+   - Limits ya conditions jo solution affect karte hain.  
+   - Examples:  
+     - 💰 **Budget:** Rent ya buy karna?  
+     - 📍 **Location:** Office ya school ke paas?  
+     - 🛡️ **Safety:** Hospital ya schools nearby?  
+     - 👨‍👩‍👧‍👦 **Family Strength:** Akela ya family ke saath?  
+3. **⚖️ Prioritize Constraints:**  
+   - Sab constraints barabar important nahi hote. Priorities set karein.  
+   - Example: Agar budget bada hai, to location kam matter karta hai.
+
+### 🔧 How to Solve a Problem?
+1. **✂️ Break into Sub-Problems:**  
+   - Bade problem ko chhote tasks mein tod do.  
+   - Example: College jane ke liye → Uthna → Taiyaar hona → Breakfast → Bus pakadna → Pahunchna.  
+2. **📊 Use Flowcharts:**  
+   - Steps ko visualize karein (next lecture mein cover hoga).  
+3. **🔧 Apply Constraints:**  
+   - Example: Kam paisa hai to bus lo, cab nahi.  
+4. **📖 Write It Down:**  
+   - Problem aur steps likhna solution ko clear karta hai.  
+
+> ✨ **Fancy Term:** Yeh process **algorithm** kaha jata hai. Coding mein yeh **DSA (Data Structures & Algorithms)** ki buniyaad hai.
+
+---
+
+## 🚀 Practical Tips for Beginners
+- **🙌 No Prior Knowledge Needed:** Course zero se shuru hota hai, computer nahi aata to bhi chalo!  
+- **🐍 Python Basics:** Real-life problems solve karne ke liye Python seekhenge.  
+- **🔧 Troubleshooting:**  
+  - Common Errors:  
+    - *SyntaxError*: Colon (`:`) ya indentation check karein.  
+    - *NameError*: Variables define karein pehle.  
+  - Code step-by-step test karein.  
+- **📩 LMS Queries:** Logistics doubts (e.g., attendance) LMS pe poochhein, personal message nahi.
+
+---
+
+## 🌴 Example: Real-Life Problem
+**Problem:** Naye sheher mein settle hona.  
+- **Sub-Problems:**  
+  1. Ghar dhoondna.  
+  2. Logistics (transport, utilities) set karna.  
+  3. Office/school/hospital ke paas hona.  
+- **Constraints:**  
+  - Budget (rent vs. buy).  
+  - Family size (akela ya kids ke saath).  
+  - Location (office ya school ke paas).  
+- **Solution Approach:**  
+  1. Constraints list karein aur prioritize karein (e.g., budget > location).  
+  2. Steps banayein: Ghar search karo → Options compare karo → Finalize karo.  
+  3. Flowchart use karein (next lecture mein).
+
+---
+
+## 💻 Code Snippet (Placeholder)
+*Python examples next lectures mein aayenge.*  
+Example (Basic Python):  
+```python
+# User ko greet karo
+name = input("Aapka naam daalein: ")
+print(f"Namaste, {name}! Algorithmic Thinking mein swagat hai!")
