@@ -1,108 +1,88 @@
-# 🌟 Lecture 1: Introduction to Algorithmic Thinking 🌟
-📅 **Date:** 21 June 2025  
-🎥 **Video Link:** [Lecture 1 Video](https://iitjbsc.futurense.com/mod/url/view.php?id=3288) *(LMS pe check karein)*  
-👨‍🏫 **Instructor:** Prajjwal Nijhara (TA)
+# 🌟 Lecture 1: Practical Session- Shared screen with speaker view 🌟
+📅 **Date:** [Jun 20, 2025 04:53 PM] *(Recording on LMS)*  
+🎥 **Video Link:** [[Check LMS for Recording](https://futurense.zoom.us/rec/play/UtlKhkYxc9aT8D7Y5hctOKfH4HzIpMBM-tKrjmih6wyQ0adGNUVHOPY7lL1jFnZ5xbT_lV1MdUb3jRog.w7nnuCBnOHIKEhwO?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Ffuturense.zoom.us%2Frec%2Fshare%2FGXN67v2C6KHxkaeNye-oW4TURrtQCoxqjctoMGjLHiQxyOQ_8idaQVGzVe_L9eSS.8ZL3R_SCdXruISVH)]  
+👨‍🏫 **Instructor:** Aalekh Rai  
 
 ---
 
-## 🎯 Evaluation Matrix: Aapka Performance Kaise Judge Hoga?
-- ✅ **In-Lecture Quizzes (Edpuzzle)** - *10%*  
-  *(Video dekhte waqt LMS pe quizzes submit karein)*  
-- ✅ **End-Module Exams** - *10%*  
-  *(Har module ke baad chhoti quizzes)*  
-- ✅ **Weekly Assignments** - *20%*  
-  *(Coding, flowcharts, ya thinking exercises - LMS pe milega)*  
-- ✅ **Programming Exams (Python)** - *20%*  
-  *(Do exams, har ek 10%, Python skills check karega)*  
-- ✅ **Major Final Exam** - *40%*  
-  *(Online, poora course cover karega)*  
-**📊 Total = 100%**
+## 🎯 Session Rules & Structure: Zaroori Baatein!
+- ✅ **Attendance:** 75% attendance mandatory (practical, TA, and video lectures).  
+- 🎙️ **Language:** English aur Hindi dono mein samjhayenge. Hindi ko English mein repeat karenge.  
+  - Agar kuch miss ho jaye, to raise hand aur poochhein!  
+- ✋ **Interaction:** Hands raise karein agar bolna ho. TA aur practical sessions Friday-Sunday honge.  
+- 📧 **Queries:** Official email IDs use karein, screenshots ke saath bsc.delivery@futurist.com pe bhejein.
 
-> 💡 **Note:** Sab assignments aur quizzes compulsory hain. Hamesha LMS pe **Submit** button dabayein!
+> 💡 **Note:** Yeh live doubt-clearing aur practical sessions hain—recordings LMS pe milengi.
 
 ---
 
-## 🧠 Conceptual Topics Covered: Seekhein Kya?
-1. **🎓 What is Algorithmic Thinking?**  
-   - Problems ko chhote logical steps mein todkar solve karne ka tareeka.  
-2. **🧑‍💻 How to Think Like a Computer Scientist?**  
-   - Problems identify karein, constraints define karein, aur step-by-step solve karein.  
-3. **🤔 What are Problems?**  
-   - Tasks, situations, ya challenges jo solution maangte hain (e.g., naye sheher mein settle hona).  
-4. **🤖 What are Algorithms?**  
-   - Ek sequence of steps jo problem solve karta hai (flowcharts ya code mein, DSA ki foundation).
+## 🧠 Conceptual Topics Covered: Kya Seekhenge?
+1. **📏 What is a Vector?**  
+   - Magnitude aur direction wali quantity (physics, math, programming mein alag-alag).  
+2. **🤖 AI & 80/20 Principle:**  
+   - 20% efforts se 80% results, AI ke 3 layers (use, develop, research).  
+3. **💻 Programming with Vectors:**  
+   - Python mein vectors ko arrays ke roop mein use karna.  
+4. **🛠️ Tools & Libraries:**  
+   - Python libraries linear algebra ke liye.
 
 ---
 
-## 🌈 Key Concepts (Deep Dive): Seekhein Thoda Aur!
-### 🔍 What is a Problem?
-- Ek **task**, **situation**, ya **challenge** jo solution chahta hai.  
-- Examples:  
-  - Mathematical: X ko find karein jahan X ≤ 10.  
-  - Real-life: Naye sheher mein settle hona with budget.  
+## 🌈 Key Concepts (Deep Dive): Thoda Aur Samjhein!
+### 🔍 Understanding Vectors
+- **Physics Perspective:**  
+  - Magnitude (e.g., 40 km/hr) + Direction (e.g., North).  
+  - 2D/3D space mein hota hai, same magnitude/direction = same vector.  
+  - Example: Car ki velocity (40 km/hr North).  
+- **Mathematics Perspective:**  
+  - Coordinates se represent hota hai (e.g., 2x + 3y + 4z).  
+  - X, Y, Z axis pe movement (2, 3, 4).  
+- **Programming Perspective:**  
+  - Array ya list ke roop mein (e.g., [1, 2] 2D vector).  
+  - Python mein vectors ko arrays ke tor par handle karte hain.
 
-### 🔎 How to Identify a Problem?
-1. **📝 Define Clearly:**  
-   - Example: "Main naye sheher mein shift hua aur settle hona chahta hoon."  
-2. **🎨 Identify Constraints:**  
-   - Limits ya conditions jo solution affect karte hain.  
-   - Examples:  
-     - 💰 **Budget:** Rent ya buy karna?  
-     - 📍 **Location:** Office ya school ke paas?  
-     - 🛡️ **Safety:** Hospital ya schools nearby?  
-     - 👨‍👩‍👧‍👦 **Family Strength:** Akela ya family ke saath?  
-3. **⚖️ Prioritize Constraints:**  
-   - Sab constraints barabar important nahi hote. Priorities set karein.  
-   - Example: Agar budget bada hai, to location kam matter karta hai.
+> ✨ **Missing Part:** Vector ka matlab physics, math, aur programming mein alag-alag hai—yeh aaj samajhna shuru kiya, next session mein clear hoga!
 
-### 🔧 How to Solve a Problem?
-1. **✂️ Break into Sub-Problems:**  
-   - Bade problem ko chhote tasks mein tod do.  
-   - Example: College jane ke liye → Uthna → Taiyaar hona → Breakfast → Bus pakadna → Pahunchna.  
-2. **📊 Use Flowcharts:**  
-   - Steps ko visualize karein (next lecture mein cover hoga).  
-3. **🔧 Apply Constraints:**  
-   - Example: Kam paisa hai to bus lo, cab nahi.  
-4. **📖 Write It Down:**  
-   - Problem aur steps likhna solution ko clear karta hai.  
+### 🔧 80/20 Principle in AI
+- **20% Efforts = 80% Results:**  
+  - Math ke 20% (linear algebra) AI research mein 80% kaam karte hain.  
+- **AI ke 3 Layers:**  
+  1. **Use (No Math/Python Needed):** ChatGPT use karna (industry mein common).  
+  2. **Develop (Python Needed):** ChatGPT jaisi apps banane ke liye.  
+  3. **Research (Math Needed):** AI technology research (20% math ka use).  
 
-> ✨ **Fancy Term:** Yeh process **algorithm** kaha jata hai. Coding mein yeh **DSA (Data Structures & Algorithms)** ki buniyaad hai.
+### 🌐 Practical Learning
+- Recorded lectures: Math concepts (vectors).  
+- Live sessions: Python tools aur activities se concepts ko mazboot karna.  
+- Next session: Vector visualization aur Python basics (lists, if-else, arrays).
 
 ---
 
 ## 🚀 Practical Tips for Beginners
-- **🙌 No Prior Knowledge Needed:** Course zero se shuru hota hai, computer nahi aata to bhi chalo!  
-- **🐍 Python Basics:** Real-life problems solve karne ke liye Python seekhenge.  
+- **🙌 No Panic:** Math samajhna zaroori nahi har layer ke liye—use aur develop mein Python kaafi hai.  
+- **📝 Note-Making:** Video pause karein, 3blue1brown.com (Linear Algebra) revise karein.  
 - **🔧 Troubleshooting:**  
-  - Common Errors:  
-    - *SyntaxError*: Colon (`:`) ya indentation check karein.  
-    - *NameError*: Variables define karein pehle.  
-  - Code step-by-step test karein.  
-- **📩 LMS Queries:** Logistics doubts (e.g., attendance) LMS pe poochhein, personal message nahi.
+  - Python nahi aata? Lists, if-else, arrays tak basics seekhein (shared resource).  
+  - Technical issues? Screenshots bsc.delivery@futurist.com pe bhejein.  
+- **🎯 Assignments:**  
+  - LANA: Monday 5 PM  
+  - FSP: Tuesday 5 PM  
+  - ATA: Wednesday 5 PM  
+  - BDA: Thursday 5 PM  
 
 ---
 
-## 🌴 Example: Real-Life Problem
-**Problem:** Naye sheher mein settle hona.  
-- **Sub-Problems:**  
-  1. Ghar dhoondna.  
-  2. Logistics (transport, utilities) set karna.  
-  3. Office/school/hospital ke paas hona.  
-- **Constraints:**  
-  - Budget (rent vs. buy).  
-  - Family size (akela ya kids ke saath).  
-  - Location (office ya school ke paas).  
-- **Solution Approach:**  
-  1. Constraints list karein aur prioritize karein (e.g., budget > location).  
-  2. Steps banayein: Ghar search karo → Options compare karo → Finalize karo.  
-  3. Flowchart use karein (next lecture mein).
+## 🌴 Example: Vector in Action
+- **Physics:** Car 40 km/hr North ja rahi hai (magnitude + direction).  
+- **Math:** [2, 3, 4] vector (X=2, Y=3, Z=4).  
+- **Programming:** `[1, 2]` array Python mein vector hai.  
 
 ---
 
 ## 💻 Code Snippet (Placeholder)
-*Python examples next lectures mein aayenge.*  
-Example (Basic Python):  
+*Next session mein Python examples shuru honge.*  
+Example (Basic Python Vector):  
 ```python
-# User ko greet karo
-name = input("Aapka naam daalein: ")
-print(f"Namaste, {name}! Algorithmic Thinking mein swagat hai!")
+# Simple vector as a list
+vector = [1, 2, 3]
+print("Vector:", vector)
